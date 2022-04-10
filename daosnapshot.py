@@ -64,7 +64,7 @@ class DAO(Resource):
             if proposal['created']>start_block:
                 prop_count+=1
         
-        ret_data['Num of Proposals'] = prop_count
+        ret_data['num_of_proposals'] = prop_count
                 
         list_str = str(list_of_proposals).replace("'","\"")
         query = """query {
