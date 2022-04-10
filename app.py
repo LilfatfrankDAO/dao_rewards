@@ -16,4 +16,6 @@ if __name__ == "__main__":
   app.run()
 
 @app.route('/foo', methods=['POST','OPTIONS'])
-@cross_origin(origin='*',headers=['Content-Type','Authorization'])
+@cross_origin(origin='*',headers=['Content-Type','Authorization'] )
+def foo():
+    return request.json['inputVar']
