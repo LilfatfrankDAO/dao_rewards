@@ -1,4 +1,0 @@
-Deployed on Rinkeby testnet
-
-Admin.sol -> 0xD88369c00bd50c9e6c69171432a7c3a2303c08d9
-nft.sol -> 0x90B56dD6e50d5329b7fAbd976e18dC3B1b9DdC3A
